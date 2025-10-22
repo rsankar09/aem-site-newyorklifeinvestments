@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/nylim" mode="merge"/>
+    <filter root="/content/nylim" mode="merge"/>
+    <filter root="/content/dam/nylim" mode="merge">
+        <exclude pattern="/content/dam/nylim(/.*)?"/>
+        <include pattern="/content/dam/nylim/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/nylim/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/nylim" mode="merge"/>
+</workspaceFilter>

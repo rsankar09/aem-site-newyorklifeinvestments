@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/nylim/clientlibs"/>
+    <filter root="/apps/nylim/components"/>
+    <filter root="/apps/nylim/i18n"/>
+</workspaceFilter>
